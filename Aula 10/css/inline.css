@@ -1,0 +1,27 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.a{
+background-color: crimson;
+}
+.aa{
+width: 33.333%;
+height: 150px;
+display: inline;
+}
+
+.aaa{
+background-color: grey;
+
+}
+
+.blue{
+    background-color: dodgerblue;
+    font-family: system-ui, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    font-size: 48;
+    padding: 10px 100px;
+    border-radius: 8px;
+}

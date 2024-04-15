@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insira</title>
+    <link rel="stylesheet" href="css/aulas.css">
+</head>
+<body>
+    <h1>Cadastro de aulas</h1>
+    <form action="" method="get" enctype="multipart/form-data">
+        <h2>Insira os dados abaixo:</h2>   
+        <label for="">Codigo Instrutor</label><br>
+            <input type="text" name="cod_instrutor"><br>
+
+                <label for="">Instrutor</label><br>
+                <input type="text" name="instrutor"><br>
+                
+                    <label for="">Turma</label><br>
+                    <input type="text" name="turma"><br>
+
+                        <label for="">Unidade Curricular</label><br>
+                        <input type="text" name="unidade_curricular"><br> 
+
+                            <label for="">Ambiente</label><br>
+                            <input type="text" name="ambiente"><br>
+            
+                                <label for="">Turno:</label><br>
+                                <label for="">Matutino</label>
+                                <input type="checkbox" name="M">
+                                <label for="">Vespertino</label> 
+                                <input type="checkbox" name="V">
+                                <label for="">Noturno</label>
+                                <input type="checkbox" name="N">
+                                <label for="">Integral</label>
+                                <input type="checkbox" name="I">
+             
+                                    <br><label for="">Data</label><br>
+                                    <input type="date" name="data"><br>
+                                
+                                <label for="">Hora Inicio</label><br>
+                                <input type="time" name="hora_inicio"><br>
+
+                        <label for="">Hora Fim</label><br>
+                        <input type="time" name="hora_fim"><br>
+                
+                    <label for="">Chave entregue?</label><br>
+                    <input type="checkbox" name="chave_entregue"><br>
+            
+                <br><input type="submit" value="Cadastrar">
+    </form>
+    <script src="/aula_20/src/app/controllers/aulasController.js"></script>
+       <div>
+        <script src="/aula_20/src/app/models/horas.js"></script>
+        
+       </div> 
+</body>
+</html>
